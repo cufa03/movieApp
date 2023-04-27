@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Row.css';
 import axios from './axios';
 const Row = ({ title, fetchUrl, isLargeRow = false }) => {
